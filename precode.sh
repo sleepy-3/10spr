@@ -21,9 +21,8 @@ touch dir2/empty
 # #!/bin/bash
 # echo "$1, привет!"
 
-# touch dir2/hello.sh
 echo '#!/bin/bash
-echo "$1, привет!"' >> hello.sh
+echo "$1, привет!"' > dir2/hello.sh
 
 # устанавливаем для task/dir2/hello.sh права rwxrw-r--
 
